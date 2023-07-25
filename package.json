@@ -1,0 +1,22 @@
+{
+  "name": "new-tyseries",
+  "version": "1.0.0",
+  "description": "Back end de aplicacion para seguir (trackear) los capitulos en por los que vas en tus series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Mario Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
